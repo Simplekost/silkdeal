@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtualenvs
+venv/
+.venv/
+env/
+
+# Scrapy / outputs
+.scrapy/
+logs/
+output/
+*.json
+*.csv
+*.jl
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Local settings / secrets
+*.env
+settings_local.py
+
+# Drivers / heavy binaries (don't commit)
+chromedriver.exe
+geckodriver.exe
