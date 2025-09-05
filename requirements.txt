@@ -1,0 +1,16 @@
+# Core
+scrapy>=2.6
+
+# Selenium integration (required for the Slickdeals + DuckDuckGo spiders)
+scrapy-selenium>=0.0.7
+selenium>=4
+
+# Optional but recommended: auto-manage chromedriver (useful for CI / local dev)
+webdriver-manager>=3.8
+
+# Optional: stealth/fingerprint masking used by silkdeal_spy
+selenium-stealth>=1.1.11
+
+# Parser (Scrapy will install this as a dependency, but pinning is helpful)
+lxml>=4.9
+
